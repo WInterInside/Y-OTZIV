@@ -186,7 +186,12 @@
 
 .form__wrapper--agreement {
 	justify-content: start;
-	margin-bottom: 18px;
+}
+
+@media (max-width : 700px) {
+	.form__wrapper--agreement {
+		margin-bottom: 18px;
+	}
 }
 
 .form__input {
