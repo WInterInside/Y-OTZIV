@@ -278,6 +278,10 @@
 	margin-left: 20px;
 }
 
+.form__label--hide {
+	opacity: 0;
+}
+
 
 @media (max-width : 700px) {
 	.form__label--error {

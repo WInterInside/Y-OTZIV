@@ -867,7 +867,7 @@
 					<p class="form__caption form__caption--modal">Оставить комментарий</p>
 					<div class="form__wrapper form__wrapper--rating">
 						<p class="form__label form__label--rating">Рейтинг:</p>					
-						<div class="modal-rating">
+						<div class="modal-rating"> <!-- добавить класс modal-rating--error  при ошибке ввода-->
 							<div class="modal-rating__items">
 								<input id="rating__5" type="radio" class="modal-rating__item" name="rating" value="5">
 								<label for="rating__5" class="modal-rating__label"></label>
@@ -885,7 +885,7 @@
 								<label for="rating__1" class="modal-rating__label"></label>
 							</div>
 						</div>
-						<!-- <p class="form__label form__label--rating form__label--error">Нельзя отправить комментарий без рейтинга</p> -->
+						<p class="form__label form__label--rating form__label--error form__label--hide">Нельзя отправить комментарий без рейтинга</p>  <!-- удалить класс form__label--hide при ошибке ввода -->
 					</div>
 					<div class="form__wrapper form__wrapper--modal">
 						<div class="form__wrapper form__wrapper--croup">							
